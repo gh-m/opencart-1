@@ -1,9 +1,88 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <ldml>
 	<identity>
-		<version number="$Revision: 1.55 $"/>
-		<generation date="$Date: 2009/05/05 23:06:36 $"/>
+		<version number="$Revision: 1.6 $"/>
+		<generation date="$Date: 2016/02/01 10:18:00 $"/>
 		<language type="fa"/>
 		<territory type="IR"/>
 	</identity>
+<layout>
+		<orientation characters="right-to-left"/>
+	</layout>
+	<characters>
+		<exemplarCharacters>[ء ا ب پ ت ث ج چ ح خ د ذ ر ز ژ س ش ص ض ط ظ ع غ ف ق ک گ ل م ن و ه ی]</exemplarCharacters>
+	</characters>
+	<dates>
+		<calendars>
+			<calendar type="Persian Calendar">
+				<months>
+					<monthContext type="format">
+						<monthWidth type="abbreviated">
+							<month type="1">فروردین</month>
+							<month type="2">اردیبهشت</month>
+							<month type="3">خرداد</month>
+							<month type="4">تیر</month>
+							<month type="5">مرداد</month>
+							<month type="6">شهریور</month>
+							<month type="7">مهر</month>
+							<month type="8">آبان</month>
+							<month type="9">آذر</month>
+							<month type="10">دی</month>
+							<month type="11">بهمن</month>
+							<month type="12">اسفند</month>
+						</monthWidth>
+						<monthWidth type="wide">
+							<month type="1">فروردین</month>
+							<month type="2">اردیبهشت</month>
+							<month type="3">خرداد</month>
+							<month type="4">تیر</month>
+							<month type="5">مرداد</month>
+							<month type="6">شهریور</month>
+							<month type="7">مهر</month>
+							<month type="8">آبان</month>
+							<month type="9">آذر</month>
+							<month type="10">دی</month>
+							<month type="11">بهمن</month>
+							<month type="12">اسفند</month>>
+						</monthWidth>
+					</monthContext>
+				</months>
+				<days>
+					<dayContext type="format">
+						<dayWidth type="abbreviated">
+							<day type="sun">ی</day>
+							<day type="mon">د</day>
+							<day type="tue">س</day>
+							<day type="wed">چ</day>
+							<day type="thu">پ</day>
+							<day type="fri">ج</day>
+							<day type="sat">ش</day>
+						</dayWidth>
+						<dayWidth type="wide">
+							<day type="sun">یکشنبه</day>
+							<day type="mon">دوشنبه</day>
+							<day type="tue">سه شنبه</day>
+							<day type="wed">چهارشنبه</day>
+							<day type="thu">پنج شنبه</day>
+							<day type="fri">جمعه</day>
+							<day type="sat">شنبه</day>
+						</dayWidth>
+					</dayContext>
+				</days>
+				<am>قبل از ظهر</am>
+				<pm>بعد از ظهر</pm>
+				
+			</calendar>
+		</calendars>
+	</dates>
+	<numbers>
+		<currencies>
+			<currency type="Rial">
+				<displayName>ریال</displayName>
+			</currency>
+			<currency type="TOM">
+				<displayName>تومان</displayName>
+			</currency>
+		</currencies>
+	</numbers>
 </ldml>
